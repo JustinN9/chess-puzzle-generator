@@ -8,33 +8,36 @@ body {
 
 #chessboard {
     display: grid;
-    grid-template-columns: repeat(8, 40px);
-    grid-template-rows: repeat(8, 40px);
-    border: 4px solid #333;
-    box-shadow: 2px 2px 12px #888;
-    margin-top: 20px;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 2px solid #333;
+    margin: 20px auto;
+    width: 480px;
 }
 
 .square {
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 36px;
     cursor: pointer;
-    transition: background 0.2s;
+    user-select: none;
 }
 
-.square.light {
-    background-color: #f0d9b5;
+.light {
+    background: #f0d9b5;
 }
 
-.square.dark {
-    background-color: #b58863;
+.dark {
+    background: #b58863;
 }
 
-.square.selected {
-    outline: 3px solid #2196f3;
+.selected {
+    outline: 3px solid #ddff00;        
+}
+        
+.move-target {
+    outline: 3px solid #b0b0b049;        
 }
