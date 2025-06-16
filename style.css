@@ -35,12 +35,11 @@ body {
 }
 
 .selected {
-    color: #7ec1ff;
-    
+    color: oldlace;
 }
         
 .move-target {
-    outline: 4px solid gray;
+    outline: 4px solid slategrey;
     width: 56px;
     height: 56px;
 }
