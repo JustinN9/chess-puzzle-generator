@@ -27,17 +27,20 @@ body {
 }
 
 .light {
-    background: #f0d9b5;
+    background: #b1b1b1;
 }
 
 .dark {
-    background: #b58863;
+    background: #585858;
 }
 
 .selected {
-    outline: 3px solid #ddff00;        
+    color: #7ec1ff;
+    
 }
         
 .move-target {
-    outline: 3px solid #b0b0b049;        
+    outline: 4px solid gray;
+    width: 56px;
+    height: 56px;
 }
