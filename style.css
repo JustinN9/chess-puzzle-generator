@@ -43,3 +43,7 @@ body {
     width: 56px;
     height: 56px;
 }
+
+.button-group button {
+  margin-right: 10px;
+}
